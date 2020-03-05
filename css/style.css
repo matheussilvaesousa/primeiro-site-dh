@@ -37,11 +37,41 @@ body {
     background-size: cover;
 }
 #banner p {
-    padding-top: 200px;
+    padding-top: 240px;
 }
 #banner button {
     background-color: #ffffffcf;
     padding: 15px 32px;
     font-size: 18px;
     font-weight: bold;
+}
+.row {
+    width: 1104px;
+    margin: 0 auto;
+}
+.box {
+    text-align: center;
+    width: 385px;
+    height: 240px;
+    background-color: red;
+    float: left;
+    margin: 20px;
+}
+.box img {
+    width: 365px;
+    height: 220px;
+    background-size: center;
+}
+.box button {
+
+}
+section {
+    overflow: hidden;
+    position: relative;
+}
+footer {
+    background-color: blueviolet;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0 5px 0;
 }
