@@ -4,29 +4,29 @@ body {
 }
 #header {
     border-bottom: 1px solid;
+    padding-bottom: 65px;
 }
 #header * {
+    font-size: 16px;
     display: inline-block;
+    overflow: hidden;
 }
 #header img {
     width: 70px;
     border: 1px;
+    float: left;
 }
 #header h1 {
-    font-size: 16px;
-    position: absolute;
+    float: left;
     margin-top: 20px;
 }
-#header ul {
+#header nav {
     float: right;
-    margin-top: 25px;
-    margin-right: 25px;
+    margin-top: 4px;
 }
 #header ul li {
     width: 120px;
     text-align: center;
-    /* display: inline-block;
-    padding: 20px; */
 }
 #banner {
     color: #ffffffcf;
@@ -46,25 +46,34 @@ body {
     font-weight: bold;
 }
 .row {
-    width: 1104px;
+    width: 90%;
     margin: 0 auto;
+    overflow: hidden;
+    background-color: aqua;
+    align-content: center;
+}
+.row * {
+    box-sizing: border-box;
 }
 .box {
     text-align: center;
-    width: 385px;
-    height: 240px;
+    width: 30%;
+    margin: 20px 20px;
     background-color: red;
     float: left;
-    margin: 20px;
-}
-.box img {
-    width: 365px;
-    height: 220px;
-    background-size: center;
 }
 .box button {
-
+    position: relative;
+    bottom: 120px;
 }
+.box img {
+    width: 95%;
+    background-size: cover;
+    align-content: center;
+}
+/* .box button {
+
+} */
 section {
     overflow: hidden;
     position: relative;
@@ -73,5 +82,5 @@ footer {
     background-color: blueviolet;
     color: #ffffff;
     text-align: center;
-    padding: 5px 0 5px 0;
+    padding: 15px 0 15px 0;
 }
